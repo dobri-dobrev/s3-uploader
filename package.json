@@ -1,0 +1,14 @@
+{
+  "name": "persona-uploader",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "upload": "node uploader.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.4.9",
+    "fs": "0.0.2",
+    "s3fs": "^2.4.8",
+    "xhr2": "^0.1.3"
+  }
+}
